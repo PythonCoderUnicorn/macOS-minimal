@@ -122,12 +122,12 @@ cd /Library/Developer/PrivateFrameworks/;
 sudo rm -rf ROCKit.framework   
 
 # made PrivateFrameworks.zip
-sudo rm -rf PrivateFrameworks
+sudo rm -rf PrivateFrameworks/
 
 cd /Library/;
-sudo rm -rf DirectoryServices 
-sudo rm -rf Documentation 
-
+sudo rm -rf DirectoryServices/ 
+sudo rm -rf Documentation/ 
+sudo rm -rf Google/
 
 
 
