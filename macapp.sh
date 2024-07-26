@@ -152,6 +152,9 @@ sudo rm -rf LaunchAgents/
 sudo rm -rf LaunchDaemons/
 
 
+sudo rm -rf Logs/Microsoft/
+sudo rm -rf Logs/CrashReporter/    # checked before deletion
+
 
 
 
