@@ -14,6 +14,9 @@ sudo rm -rf mobi.teengames.BowShooter3Dmac.plist
 sudo rm -rf mobi.teengames.BowShooter3Dmac.bom
 
 cd /var/db/receipts/;
+sudo rm -rf com.adobe.*
+
+cd /var/db/receipts/;
 
 sudo rm -rf io.continuum.pkg.pathupdate.bom \
 io.continuum.pkg.pathupdate.plist \
