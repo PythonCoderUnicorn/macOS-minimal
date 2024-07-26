@@ -159,6 +159,26 @@ sudo rm -rf Logs/CrashReporter/    # checked before deletion
 sudo rm -rf /Library/Modem\ Scripts/*.ccl
 
 
+sudo rm -rf /Library/OpenDirectory/
+sudo rm -rf /Library/OSAnalytics/
+sudo rm -rf /Library/Perl/
+sudo rm -rf /Library/Preferences/*.plist
+sudo rm -rf /Library/Preferences/Xsan
+sudo rm -Irf /Library/PriviledgedHelperTools/
+sudo rm -Irf /Library/Python/
+sudo rm -Irf /Library/QuickLook/
+sudo rm -rf /Library/Receipts/
+sudo rm -rf /Library/Sandbox/
+sudo rm -rf /Library/Screen\ Savers/
+sudo rm -rf /Library/ScriptingAdditions/
+sudo rm -rf /Library/Spotlight/
+sudo rm -rf /Library/Startupitems/
+sudo rm -rf /Library/SystemProfiler/
+sudo rm -rf /Library/WebServer/
+
+
+
+
 
 
 
