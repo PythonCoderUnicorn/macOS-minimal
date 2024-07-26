@@ -5,6 +5,7 @@
 # files may not be present on other systems
 # sometimes you need to right-click and delete folders
 
+# Apple uses `.plist` = property list (metadata, settings, app preferences) in XML
 
 
 cd /var/db/receipts/;
@@ -134,6 +135,20 @@ sudo rm -rf Image\ Capture/Support/
 sudo rm -rf Image\ Capture/Tools/
 sudo rm -rf Image\ Capture/TWAIN\ Data\ Sources/
 sudo rm -rf Input\ Methods/
+sudo rm -rf InstallerSandboxes/
+sudo rm -rf Internet\ Plug-Ins/
+sudo rm -rf Java/
+# made Archive.zip
+sudo rm -rf Extensions/*.kext
+sudo rm -Irf Filesystems/      # partially works
+
+sudo rm -Irf /Library/LaunchAgents/com.adobe.ARMDCHelper.cc24aef4a1b90ed56a725c38014c95072f92651fb65e1bf9c8e43c37a23d420d.plist
+sudo rm -Irf /Library/LaunchAgents/com.google.keystone.agent.plist \
+com.google.keystone.xpcservice.plist \
+sudo rm -rf LaunchAgents/
+sudo rm -rf LaunchDaemons/
+
+
 
 
 
