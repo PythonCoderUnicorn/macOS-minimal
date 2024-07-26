@@ -133,7 +133,7 @@ sudo rm -rf Image\ Capture/Automatic\ Tasks/
 sudo rm -rf Image\ Capture/Support/
 sudo rm -rf Image\ Capture/Tools/
 sudo rm -rf Image\ Capture/TWAIN\ Data\ Sources/
-
+sudo rm -rf Input\ Methods/
 
 
 
