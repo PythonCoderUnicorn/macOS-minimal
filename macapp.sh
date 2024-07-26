@@ -129,6 +129,11 @@ sudo rm -rf DirectoryServices/
 sudo rm -rf Documentation/ 
 sudo rm -rf Google/
 sudo rm -rf Graphics/
+sudo rm -rf Image\ Capture/Automatic\ Tasks/ 
+sudo rm -rf Image\ Capture/Support/
+sudo rm -rf Image\ Capture/Tools/
+sudo rm -rf Image\ Capture/TWAIN\ Data\ Sources/
+
 
 
 
