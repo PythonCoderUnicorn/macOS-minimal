@@ -126,7 +126,7 @@ sudo rm -rf PrivateFrameworks
 
 cd /Library/;
 sudo rm -rf DirectoryServices 
-
+sudo rm -rf Documentation 
 
 
 
