@@ -155,6 +155,8 @@ sudo rm -rf LaunchDaemons/
 sudo rm -rf Logs/Microsoft/
 sudo rm -rf Logs/CrashReporter/    # checked before deletion
 
+# made archive.zip
+sudo rm -rf /Library/Modem\ Scripts/*.ccl
 
 
 
