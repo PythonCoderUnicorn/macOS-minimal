@@ -128,7 +128,7 @@ cd /Library/;
 sudo rm -rf DirectoryServices/ 
 sudo rm -rf Documentation/ 
 sudo rm -rf Google/
-
+sudo rm -rf Graphics/
 
 
 
